@@ -1,0 +1,63 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.container
+{
+    background-color:red;
+    height:600px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    flex-shrink:1;
+}
+.display
+{
+    margin-top:10px;
+    background-color:blue;
+    width:400px;
+    flex:1;
+}
+.numberArea
+{
+    /* background-color:pink; */
+    width:400px;
+    display:flex;
+    flex:4;
+    flex-wrap:wrap;
+    flex-direction:column;
+    gap:20px;
+    justify-content:space-around;
+}
+button
+{
+    /* background-color:green; */
+    height:40px;
+    width:70px;
+}
+#clear,#delete
+{
+    width:180px;
+    height:80px;
+}
+
+.firstRow,.secondRow,.thirdRow,.fourthRow,.fifthRow
+{
+   
+    display:flex;
+    justify-content: space-between;
+}
+
